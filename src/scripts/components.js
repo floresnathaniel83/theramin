@@ -58,7 +58,8 @@ const Header = React.createClass ({
 			
 			<div id = 'headerContainer'>
 				
-				<h1>The Theremin</h1>
+				<h1 className='font-effect-neon'>The Theremin</h1>
+				<h2>Make some noise with the cross cursor...</h2>
 
 			</div>
 			

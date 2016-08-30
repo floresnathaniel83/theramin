@@ -8,6 +8,13 @@ h1 {
 	text-align: center;
 	color: fuchsia;
 }
+
+h2 {
+	text-align: -webkit-center;
+	margin-top: 9%;
+	font-size: xx-large;
+
+}
 	
 	#thereminContainer {
 		position: relative;
@@ -33,7 +40,7 @@ h1 {
 					#antenna {
 						background: gray;
 					    width: 10px;
-					    height: 200px;
+					    height: 500px;
 					    border-radius: 25%;
 					}
 
@@ -49,6 +56,7 @@ h1 {
 	}
 
 	#moogContainer {
+		position: relative;
 		display: flex;
 		width: 50%;
 	
@@ -91,27 +99,14 @@ h1 {
 			}
 
 	}
-
-	#volumeAntenna {
-
-		position: absolute;
-	    bottom: -1%;
-	    left: 50%;
-	    background: white;
-	    border: 5px solid gray;
-	    border-left: none;
-	    border-radius: 46%;
-	    width: 10%;
-	    height: 50px;
-	}
-
+	
 	#stand {
 
 			position: absolute;
 		    left: 24%;
 		    background: black;
 		    width: 10px;
-		    height: 80px;
+		    height: 100vh;
 
 
 	}
